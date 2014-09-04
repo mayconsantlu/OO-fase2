@@ -33,19 +33,7 @@
                     <div id="panel<?php echo $cliente[0]; ?>" class="panel-collapse collapse">
                         <div class="panel-body">
                             <?php
-                            //print_r($clientes->get_clientes());
-                            foreach($clientes->get_clientes() as $cliente) {
-                            //foreach($clientes->get_dados() as $valores) {
-                                //foreach($valores as $dados) {
-                                    //print_r($dados);
-                                   // echo $dados;
-
-                                //}
-                            //echo $clientes->get_clientes();
-
-                                //.' - Nome: '.$cliente[1].' - CPF: '.$cliente[2].'<br />'
-                               echo 'ID: '.$cliente[0].' - Nome: '.$cliente[1].' - CPF: '.$cliente[2].'<br />';
-                            }
+                              echo 'ID: '.$cliente[0].'<br />Nome: '.$cliente[1].'<br />CPF: '.$cliente[2].'<br />RG: '.$cliente[3].'<br />IDADE: '.$cliente[4].'<br />SEXO: '.$cliente[5].'<br />ENDEREÇO: '.$cliente[6].'<br />NÚM: '.$cliente[7].'<br />COMPLEMENTO: '.$cliente[8].'<br />BAIRRO: '.$cliente[9].'<br />CIDADE: '.$cliente[10].'<br />UF: '.$cliente[11].'<br />PAIS: '.$cliente[12];
                             ?>
                         </div>
                     </div>
