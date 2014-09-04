@@ -12,7 +12,7 @@
     require_once 'arquivos/includes/Clientes.php';
     require_once 'arquivos/includes/adicionar_clientes.php';
     //$clientes = new Clientes();
-    require_once 'arquivos/includes/dados.php';
+    require_once 'arquivos/includes/mostrar.php';
     ?>
 </section>
     <?php

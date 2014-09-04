@@ -26,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="423" selection-end="423" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="425">
+            <state line="14" column="43" selection-start="359" selection-end="359" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -35,16 +35,17 @@
       <file leaf-file-name="dados.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arquivos/includes/dados.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="6" selection-start="1748" selection-end="1748" vertical-scroll-proportion="-18.961538" vertical-offset="102" max-vertical-offset="697">
-              <folding>
-                <marker date="1409842119282" expanded="true" signature="25:1747" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="60:1740" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="105:1729" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="691:1636" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="739:956" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="1051:1613" placeholder="..." />
-                <marker date="1409842119282" expanded="true" signature="1100:1586" placeholder="..." />
-              </folding>
+            <state line="23" column="0" selection-start="1102" selection-end="1556" vertical-scroll-proportion="-9.730769" vertical-offset="138" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mostrar.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arquivos/includes/mostrar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="42" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.59749556" vertical-offset="431" max-vertical-offset="1224">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,15 +54,6 @@
         <entry file="file://$PROJECT_DIR$/arquivos/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="40" selection-start="836" selection-end="836" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/arquivos/includes/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
               <folding />
             </state>
           </provider>
@@ -102,9 +94,10 @@
         <option value="$PROJECT_DIR$/arquivos/includes/Clientes.php" />
         <option value="$PROJECT_DIR$/arquivos/includes/adicionar_clientes.php" />
         <option value="$PROJECT_DIR$/arquivos/includes/dados.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/arquivos/includes/header.php" />
         <option value="$PROJECT_DIR$/arquivos/includes/menu.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/arquivos/includes/mostrar.php" />
       </list>
     </option>
   </component>
@@ -248,7 +241,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17349927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17349927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -383,25 +376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/arquivos/includes/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="423" selection-end="423" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="425">
+        <state line="10" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/includes/dados.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="6" selection-start="1748" selection-end="1748" vertical-scroll-proportion="-18.961538" vertical-offset="102" max-vertical-offset="697">
-          <folding>
-            <marker date="1409842119282" expanded="true" signature="25:1747" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="60:1740" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="105:1729" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="691:1636" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="739:956" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="1051:1613" placeholder="..." />
-            <marker date="1409842119282" expanded="true" signature="1100:1586" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,9 +390,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/includes/menu.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="684" selection-end="684" vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
+        <state line="14" column="43" selection-start="359" selection-end="359" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/includes/dados.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1102" selection-end="1556" vertical-scroll-proportion="-9.730769" vertical-offset="138" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/includes/mostrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="42" selection-start="1963" selection-end="1963" vertical-scroll-proportion="0.59749556" vertical-offset="431" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
