@@ -6,3 +6,11 @@
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     text-align: center;
 }
+
+.cliente ul li {
+    list-style: none;
+    font-family: 'Microsoft Sans Serif', Tahoma, Arial, Verdana, Sans-Serif;
+}
+.cliente ul li:hover {
+    background-color: #f5f5f5;
+}
