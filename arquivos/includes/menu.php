@@ -8,14 +8,13 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li class="active">
-							<a href="#">Atualizar</a>
+							<a href="/">Atualizar</a>
 						</li>
+                        <li class="active">
+                            <a href="?ordem=i">Inverter</a>
+                        </li>
 					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#">Inverter</a>
-						</li>
-					</ul>
+
 				</div>
 				
 			</nav>

@@ -17,18 +17,23 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
             <div class="panel-group" id="panel">
-                // imprimir isso
+                <!-- // imprimir isso -->
                 <?php
-                //print_r($clientes->get_clientes());
-                //var_dump($clientes->get_clientes());
-                //print_r($clientes->get_clientes());=> $value
-                foreach($clientes->get_clientes() as $cliente) {
-                //echo 'ID: '.$cliente[0].' - Nome: '.$cliente[1].' - CPF: '.$cliente[2].'<br />';
+                // Inverte a ordem:
+                if(isset($_GET['ordem']) && $_GET['ordem']=='i') {
+                    $inverso = $clientes->get_clientes();
+                    $result = array_reverse($inverso);
+                    $resultado = array_reverse($inverso, true);
+                }else {
+                    $resultado = $clientes->get_clientes();
+                }
+                // Mostra os clientes
+                foreach($resultado as $cliente) {
                 //} desativado
                 ?>
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel" href="#panel<?php echo $cliente[0]; ?>"><?php echo $cliente[1]; ?></a>
+                        <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel" href="#panel<?php echo $cliente[0]; ?>"><?php echo $cliente[0].' - '.$cliente[1]; ?></a>
                     </div>
                     <div id="panel<?php echo $cliente[0]; ?>" class="panel-collapse collapse">
                         <div class="panel-body">
@@ -41,7 +46,7 @@
                 <?php
                 }
                 ?>
-                //até aqui
+                <!--//até aqui -->
             </div>
         </div>
     </div>
