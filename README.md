@@ -1,21 +1,8 @@
-PHP - Code Education - Banco de Dados
+﻿PHP - Code Education - OO
 ====================================
 
-### Criado um site em php com BD
+### Criado listagem de clientes
 
-Criado um pequeno site em PHP com os seguintes requisitos:
-**Texto copiado dos requisitos**
+** Sofrido mas enfim saiu **
 
-> Links de navegação
-Home
-Empresa
-Produtos
-Serviços
-Contato
-
-*Páginas salvas no banco de dados*
-
-*Controle de alteração pelo admin*..
-
-### Adicionado edicão.
-git remote add origin1 https://github.com/mayconsantlu/site-simples-bd-edit.git
+## Maycon
