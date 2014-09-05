@@ -42,19 +42,13 @@
                                 </div>
                                 <div class="modal-body cliente">
                                     <ul class="list-group">
-                                        <li class="list-group-item">ID: <?php echo $cliente[0]; ?></li>
-                                        <li class="list-group-item">Nome: <?php echo $cliente[1]; ?></li>
-                                        <li class="list-group-item">CPF: <?php echo $cliente[2]; ?></li>
-                                        <li class="list-group-item">RG: <?php echo $cliente[3]; ?></li>
-                                        <li class="list-group-item">IDADE: <?php echo $cliente[4]; ?></li>
-                                        <li class="list-group-item">SEXO: <?php echo $cliente[5]; ?></li>
+                                        <li class="list-group-item">ID: <?php echo $cliente[0].' / Nome: '.$cliente[1]; ?></li>
+                                        <li class="list-group-item">CPF: <?php echo $cliente[2].' / RG: '.$cliente[3]; ?></li>
+                                        <li class="list-group-item">IDADE: <?php echo $cliente[4].' / SEXO: '.$cliente[5]; ?></li>
                                         <li class="list-group-item">ENDEREÇO: <?php echo $cliente[6]; ?></li>
-                                        <li class="list-group-item">NÚM: <?php echo $cliente[7]; ?></li>
-                                        <li class="list-group-item">COMPLEMENTO: <?php echo $cliente[8]; ?></li>
-                                        <li class="list-group-item">BAIRRO: <?php echo $cliente[9]; ?></li>
-                                        <li class="list-group-item">CIDADE: <?php echo $cliente[10]; ?></li>
-                                        <li class="list-group-item">UF: <?php echo $cliente[11]; ?></li>
-                                        <li class="list-group-item">PAIS: <?php echo $cliente[12]; ?></li>
+                                        <li class="list-group-item">NÚM: <?php echo $cliente[7].' / COMPLEMENTO: '.$cliente[8]; ?></li>
+                                        <li class="list-group-item">BAIRRO: <?php echo $cliente[9].' / CIDADE: '.$cliente[10]; ?></li>
+                                        <li class="list-group-item">UF: <?php echo $cliente[11].' / PAIS: '.$cliente[12]; ?></li>
                                     </ul>
                                 </div>
                                 <div class="modal-footer">
